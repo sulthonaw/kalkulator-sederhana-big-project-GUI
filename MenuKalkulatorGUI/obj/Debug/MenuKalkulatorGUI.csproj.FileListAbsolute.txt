@@ -1,0 +1,14 @@
+D:\dotnet\MenuKalkulatorGUI\bin\Debug\MenuKalkulatorGUI.exe.config
+D:\dotnet\MenuKalkulatorGUI\bin\Debug\MenuKalkulatorGUI.exe
+D:\dotnet\MenuKalkulatorGUI\bin\Debug\MenuKalkulatorGUI.pdb
+D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.csproj.AssemblyReference.cache
+D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.csproj.SuggestedBindingRedirects.cache
+D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.Dashboard.resources
+D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.ModelMenu.resources
+D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.Properties.Resources.resources
+D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.csproj.GenerateResource.cache
+D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.csproj.CoreCompileInputs.cache
+D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.exe
+D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.pdb
+D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.ModelStringDanSimbol.resources
+D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.ModelFullString.resources
