@@ -17,8 +17,6 @@ namespace MenuKalkulatorGUI
             InitializeComponent();
         }
 
-        public static void button1_Click() { }
-
         private void buttonModelMenu_Click(object sender, EventArgs e)
         {
             new ModelMenu().Show();
@@ -37,6 +35,16 @@ namespace MenuKalkulatorGUI
         private void Dashboard_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonModelSimbol_Click(object sender, EventArgs e)
+        {
+            new ModelSimbol().Show();
         }
     }
 }

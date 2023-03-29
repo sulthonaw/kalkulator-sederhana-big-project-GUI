@@ -58,6 +58,12 @@
     <Compile Include="ModelFullString.Designer.cs">
       <DependentUpon>ModelFullString.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModelSimbol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModelSimbol.Designer.cs">
+      <DependentUpon>ModelSimbol.cs</DependentUpon>
+    </Compile>
     <Compile Include="ModelStringDanSimbol.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
     <EmbeddedResource Include="ModelMenu.resx">
       <DependentUpon>ModelMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ModelSimbol.resx">
+      <DependentUpon>ModelSimbol.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ModelStringDanSimbol.resx">
       <DependentUpon>ModelStringDanSimbol.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +101,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -105,6 +115,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download__1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-removebg-preview %282%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

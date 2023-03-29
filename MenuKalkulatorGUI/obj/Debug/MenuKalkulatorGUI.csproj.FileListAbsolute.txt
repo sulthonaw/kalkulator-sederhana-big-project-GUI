@@ -12,3 +12,4 @@ D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.exe
 D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.pdb
 D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.ModelStringDanSimbol.resources
 D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.ModelFullString.resources
+D:\dotnet\MenuKalkulatorGUI\obj\Debug\MenuKalkulatorGUI.ModelSimbol.resources

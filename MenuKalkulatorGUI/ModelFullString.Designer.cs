@@ -319,6 +319,7 @@
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "ModelFullString";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kalkulator: Model Full String";
             this.Load += new System.EventHandler(this.ModelFullString_Load);
             this.groupBox1.ResumeLayout(false);
