@@ -311,7 +311,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::MenuKalkulatorGUI.Properties.Resources.download_removebg_preview__2_;
-            this.pictureBox2.Location = new System.Drawing.Point(380, 26);
+            this.pictureBox2.Location = new System.Drawing.Point(379, 10);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(67, 17);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -321,7 +321,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::MenuKalkulatorGUI.Properties.Resources.download__1__removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(354, 23);
+            this.pictureBox1.Location = new System.Drawing.Point(353, 7);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(20, 22);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -332,7 +332,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(322, 5);
+            this.label11.Location = new System.Drawing.Point(324, 30);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(153, 13);
             this.label11.TabIndex = 0;
