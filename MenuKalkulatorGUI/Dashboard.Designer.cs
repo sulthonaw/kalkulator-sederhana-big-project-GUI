@@ -48,9 +48,9 @@
             this.buttonModelSimbol = new System.Windows.Forms.Button();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.header.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -58,8 +58,8 @@
             this.panel4.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonModelMenu
@@ -91,7 +91,8 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 39);
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label6.Location = new System.Drawing.Point(3, 34);
             this.label6.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
             this.label6.MaximumSize = new System.Drawing.Size(294, 0);
             this.label6.Name = "label6";
@@ -129,9 +130,9 @@
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(28, 15);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(104, 25);
+            this.label10.Size = new System.Drawing.Size(154, 25);
             this.label10.TabIndex = 7;
-            this.label10.Text = "Kalkulator";
+            this.label10.Text = "Kalkulator Apps";
             // 
             // panel2
             // 
@@ -148,7 +149,8 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(5, 42);
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label9.Location = new System.Drawing.Point(3, 34);
             this.label9.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
             this.label9.MaximumSize = new System.Drawing.Size(294, 0);
             this.label9.Name = "label9";
@@ -196,7 +198,8 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(5, 42);
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label8.Location = new System.Drawing.Point(3, 34);
             this.label8.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
             this.label8.MaximumSize = new System.Drawing.Size(294, 0);
             this.label8.Name = "label8";
@@ -244,7 +247,8 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(3, 39);
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label7.Location = new System.Drawing.Point(3, 34);
             this.label7.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
             this.label7.MaximumSize = new System.Drawing.Size(300, 0);
             this.label7.Name = "label7";
@@ -304,15 +308,15 @@
             this.panel5.Size = new System.Drawing.Size(800, 51);
             this.panel5.TabIndex = 10;
             // 
-            // label11
+            // pictureBox2
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(322, 5);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(153, 13);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "Copyright © 2023 Sulthonaw";
+            this.pictureBox2.Image = global::MenuKalkulatorGUI.Properties.Resources.download_removebg_preview__2_;
+            this.pictureBox2.Location = new System.Drawing.Point(380, 26);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(67, 17);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 12;
+            this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -324,15 +328,15 @@
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
+            // label11
             // 
-            this.pictureBox2.Image = global::MenuKalkulatorGUI.Properties.Resources.download_removebg_preview__2_;
-            this.pictureBox2.Location = new System.Drawing.Point(380, 26);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(67, 17);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(322, 5);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(153, 13);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "Copyright © 2023 Sulthonaw";
             // 
             // Dashboard
             // 
@@ -363,8 +367,8 @@
             this.flowLayoutPanel2.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -54,66 +54,6 @@ namespace MenuKalkulatorGUI
             else buttonEquals.Enabled = false;
         }
 
-        private void button8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-           //
-        }
-
-        private void buttonDot_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonEquals2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button0_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void input2_Click(object sender, EventArgs e)
         {
             input2.Focus();
@@ -129,6 +69,13 @@ namespace MenuKalkulatorGUI
             input1.Text = "";
             input2.Text = "";
             outputHasil.Text = "";
+
+            Panel menuOptions = this.Controls.Find("panel2", true).FirstOrDefault() as Panel;
+
+            foreach (Control ctrl in menuOptions.Controls)
+            {
+                if (ctrl is RadioButton) ((RadioButton)ctrl).Checked = false;
+            }
         }
     }
 }
