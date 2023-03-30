@@ -44,5 +44,12 @@ namespace MenuKalkulatorGUI
         {
 
         }
+
+        private void buttonReset_Click(object sender, EventArgs e)
+        {
+            input1.Text = "";
+            input2.Text = "";
+            outputHasil.Text = "";
+        }
     }
 }

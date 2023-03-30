@@ -30,6 +30,7 @@
         {
             this.buttonReset = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.simbol = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -40,7 +41,6 @@
             this.buttonEquals = new System.Windows.Forms.Button();
             this.input2 = new System.Windows.Forms.TextBox();
             this.input1 = new System.Windows.Forms.TextBox();
-            this.simbol = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +55,7 @@
             this.buttonReset.TabIndex = 34;
             this.buttonReset.Text = "Reset";
             this.buttonReset.UseVisualStyleBackColor = false;
+            this.buttonReset.Click += new System.EventHandler(this.buttonReset_Click);
             // 
             // panel1
             // 
@@ -77,6 +78,22 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(327, 326);
             this.panel1.TabIndex = 35;
+            // 
+            // simbol
+            // 
+            this.simbol.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.simbol.FormattingEnabled = true;
+            this.simbol.Items.AddRange(new object[] {
+            "+",
+            "-",
+            "*",
+            "/"});
+            this.simbol.Location = new System.Drawing.Point(125, 87);
+            this.simbol.Name = "simbol";
+            this.simbol.Size = new System.Drawing.Size(121, 28);
+            this.simbol.TabIndex = 32;
+            this.simbol.SelectedIndexChanged += new System.EventHandler(this.simbol_SelectedIndexChanged);
+            this.simbol.TextChanged += new System.EventHandler(this.outputHasil_TextChanged);
             // 
             // label7
             // 
@@ -187,22 +204,6 @@
             this.input1.TabIndex = 4;
             this.input1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.input1.TextChanged += new System.EventHandler(this.input1_TextChanged);
-            // 
-            // simbol
-            // 
-            this.simbol.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.simbol.FormattingEnabled = true;
-            this.simbol.Items.AddRange(new object[] {
-            "+",
-            "-",
-            "*",
-            "/"});
-            this.simbol.Location = new System.Drawing.Point(125, 87);
-            this.simbol.Name = "simbol";
-            this.simbol.Size = new System.Drawing.Size(121, 28);
-            this.simbol.TabIndex = 32;
-            this.simbol.SelectedIndexChanged += new System.EventHandler(this.simbol_SelectedIndexChanged);
-            this.simbol.TextChanged += new System.EventHandler(this.outputHasil_TextChanged);
             // 
             // ModelSimbol
             // 
