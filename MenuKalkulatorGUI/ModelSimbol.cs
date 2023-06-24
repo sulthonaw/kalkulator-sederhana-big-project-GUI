@@ -49,7 +49,7 @@ namespace MenuKalkulatorGUI
         {
             input1.Text = "";
             input2.Text = "";
-            outputHasil.Text = "";
+            outputHasil.Text = "";   
         }
     }
 }
